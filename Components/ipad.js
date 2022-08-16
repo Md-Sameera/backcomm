@@ -1,0 +1,72 @@
+const get = (req,res) =>{
+  res.send([
+    {
+      "id" : 1,
+      "Title" : "APPLE 10.5-INCH IPAD PRO LEATHER SLEEVE",
+      "ImageAsset" :"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/studio-display-gallery-1-202203?wid=320&hei=264&fmt=p-jpg&qlt=95&.v=1645726293363",
+      "CategoryName":"ipad",
+      "Price":"5000",
+      "fp":"fp",
+      "PublishedDate" : "Aug 8 2021",
+      "BlogContent" : "The ultimate iPad experience. With next-level M1 performance, a breathtaking XDR display and fast wireless. Buckle up. ",
+    },
+    {
+      "id" : 2,
+      "Title" : "I-Pad mini",
+      "ImageAsset" :"https://www.apple.com/in/ipad-mini/images/overview/design/battery__bj20nc81hmhe_large.jpg",
+      "CategoryName":"ipad",
+      "Price":"6900",
+      "PublishedDate" : " feb 18 2021",
+      "BlogContent" : "iPad mini has all-day battery life, so it’s always ready for any task or project.3 Keep working, creating and playing — without missing a beat.",
+    },
+    {
+      "id" : 3,
+      "Title" : " ipad Pro ",
+      "ImageAsset" :"https://www.apple.com/v/ipad-pro/ai/images/overview/experience/intro_summary_static__epib5tclp926_large.png",
+      "CategoryName":"ipad",
+      "Price":"71990",
+      "PublishedDate" : " Aug 12 2021",
+      "BlogContent" : "The ultimate iPad experience. With next-level M1 performance, a breathtaking XDR display and fast wireless. Buckle up.",
+    },
+    {
+      "id":4,
+      "Title" : "Ipad Air",
+      "ImageAsset" :"https://www.apple.com/in/ipad-air/images/overview/pencil-keyboard/usb_c__chy56sc2jmj6_large.png",
+      "CategoryName":"ipad",
+      "Price":"54900",
+      "PublishedDate" : " Oct 29 2019",
+      "BlogContent" : " iPadOS is uniquely powerful, easy to use and designed for the versatility of iPad. Use multiple apps at once, write in any text field with Scribble and navigate using the power of touch.",
+    },
+    {
+      "id" : 5,
+      "Title" : "Apple Studio Display",
+      "ImageAsset" :"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/studio-display-gallery-1-202203?wid=320&hei=264&fmt=p-jpg&qlt=95&.v=1645726293363",
+      "CategoryName":"tv",
+      "Price":"159900",
+      "fp":"fp",
+      "PublishedDate" : "Aug 8 2021",
+      "BlogContent" : " Magic Mouse is wireless and rechargeable, with an optimised foot design that lets it glide smoothly across your desk. The Multi-Touch surface allows you to perform simple gestures such as swiping between web pages and scrolling through documents. ",
+    },
+    {
+      "id" : 6,
+      "Title" : " Apple Pencil",
+      "ImageAsset" :"https://www.apple.com/v/ipad-pro/ai/images/overview/keyboard-pencil/pencil_endframe__ig8mqiu3oiie_large.jpg",
+      "CategoryName":"pencil",
+      "Price":"5800",
+      "PublishedDate" : " Jan 18 2022",
+      "BlogContent" : " Apple Pencil. With the power of Apple Pencil, iPad Pro transforms into an immersive drawing canvas and the world’s best note‑taking device. It sets the standard for how drawing, marking up documents and even filling in text fields should feel — intuitive, precise and magical.",
+    },
+    {
+      "id" : 5,
+      "Title" : "APPLE 10.5-INCH IPAD PRO LEATHER SLEEVE",
+      "ImageAsset" :"https://www.re-thinkingthefuture.com/wp-content/uploads/2021/08/A4907-10-Upcoming-Apple-products-built-and-conceptual-Image-10.jpg",
+      "CategoryName":"ipad",
+      "Price":"25000",
+      "fp":"fp",
+      "PublishedDate" : "jan 31 2023",
+      "BlogContent" : "The M1 iPad Pro is expected to have M1 chips which vow 50% faster performance and over 1500 times faster than the first iPad ever. The 11” is expected to come with a liquid retina display, while the 12.9” is expected to have many exciting features from liquid retina XDR display, promotion technology, center sage, and whatnot. They are said to contain a 12 MP ultrawide camera with true depth technology, and 54, 2TB of storage. ",
+    },
+
+  ])
+}
+module.exports.apiController = get;
